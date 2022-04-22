@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .dropbtn {
+              background-color: rgb(43 72 82);
+              color: rgb(247, 243, 243);
+              padding: 16px;
+              font-size: 16px;
+              border: none;
+            }
+            
+            .dropdown {
+              position: relative;
+              display: inline-block;
+            }
+            
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: hsl(48deg 37% 37%);
+              min-width: 160px;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+            }
+            
+            .dropdown-content a {
+              color: rgb(255, 255, 255);
+              padding: 12px 16px;
+              text-decoration: none;
+              display: block;
+            }
+            
+            .dropdown-content a:hover {background-color: rgb(43 72 82)}
+            
+            .dropdown:hover .dropdown-content {display: block;}
+            
+            .dropdown:hover .dropbtn {background-color: #c206c2;}
+            </style>
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <h1>Green Life</h1>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">green Life</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                        
+                            <div class="dropdown">
+                                <a href="#about" class="nav__link">About</a>
+                                <div class="dropdown-content">
+<a href="Saudi Falcon.html">Saudi Falcon</a>
+<a href="Discovert.html">our team</a>
+<a href="ab.html">invent</a>
+                                </div>
+</div>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link">Volunteers</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#place" class="nav__link">plant&tree</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="log.html" class="nav__link">Login</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+          
+                <img src="assets/img/home.jpg" alt="" class="home__img">
+                
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle"></span>
+                        <h1 class="home__data-title">Let's innovate<br>for a bright and<b>
+                           </h1>
+                       
+
+                    </div>
+
+                    
+                  
+                    <div class="home__info">
+                        <div>
+                            <span class="home__info-title">Innovate to advance</span>
+                            <a href="ab.html" class="button button--flex button--link home__info-button">
+                                Come on <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__info-overlay">
+                            <img src="assets/img/about2t.jpg" width="700" height="400" class="home__info-img" >
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Let's <br>
+                            Live By Nature</h2>
+                        <p class="about__description">Agriculture is an inexhaustible treasure. Rather, it is a treasure that grows and increases. Agriculture satisfies hunger and industry satisfies the needs. But education cultivates and manufactures the country. We have to take care of tourism, industry, agriculture, and mineral extraction in order to provide the generals' salaries.</p>
+                        
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/home2.jpg" width="400" height="500"  >
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about2.jpg" alt="" class="about__img-two"class="about__img-one ><!---class="about__img-one"
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== DISCOVER ====================-->
+            <section class="discover section" id="discover">
+                <h2 class="section__title">Volunteer in the service of our country..  <br> giving and building for our society</h2>
+                
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== DISCOVER 1 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover1.jpg" width="100000"height=1000 alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title"></h2>
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 2 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover2.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title"></h2>
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 3 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover3.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title"></h2>
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 4 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover4.jpg" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title"></h2>
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== EXPERIENCE ====================-->
+            <section class="experience section">
+                <h2 class="section__title">Map of farming<br> locations</h2>
+
+                <div class="experience__container container grid">
+                    <div class="experience__content grid">
+                        <div class="experience__data">
+                            <h2 class="experience__number">1,000,000</h2>
+                            <span class="experience__description"> trees planted <br>around the world</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">10,000</h2>
+                            <span class="experience__description"> volunteer<br></span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">650+</h2>
+                            <span class="experience__description">places to <br>plant</span>
+                        </div>
+                    </div>
+                    <iframe src="https://www.google.com/maps/d/embed?mid=10WTFj0EHWzijyBMbIFOe5RPoupFRsyuM&ehbc=2E312F" width="640" height="480"></iframe>
+                   
+                </div>
+            </section>
+
+            <!--==================== VIDEO ====================-->
+            <section class="video section">
+                <h2 class="section__title">Our goal</h2>
+
+                <div class="video__container container">
+                    <p class="video__description">The green life project is considered one of the most ambitious afforestation projects in the world.
+                    </p>
+
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="assets/video/video.mp4" type="video/mp4">
+                        </video>
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PLACES ====================-->
+            <section class="place section" id="place">
+                <h2 class="section__title">Top 5 trees that can be planted in Saudi Arabia</h2>
+
+                <div class="place__container container grid">
+                    <!--==================== PLACES CARD 1 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place1.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number"></span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Ficus salicifolia</h3>
+                                <span class="place__subtitle">
+                                    <span class="mark">
+                                    <mark>Suitable for decorating gardens parks and sidewalks.Its leaves are thick and shiny. Its height reaches (10-15 m), it lives in rocky clay soil</span>
+                                <span class="place__price"></span></span>
+                            </div>
+                        </div>
+
+               
+                    </div>
+
+                    <!--==================== PLACES CARD 2 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place2.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number"></span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Tamarix aphylla</h3>
+                                <span class="place__subtitle"><mark>It is a tree that can withstand harsh weather conditions. Its leaves are ciliary. Suitable for wind and sand breakers.</mark></span>
+                                <span class="place__price"></span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!--==================== PLACES CARD 3 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place3.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number"></span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Commiphora gileadensis</h3>
+                                <span class="place__subtitle"><mark>Beautiful aromatic bush. Withstands harsh climatic conditions. Its leaves are small and can be stripped from them in the summer. Its height (2-3 m) is suitable for streets and gardens</mark></span>
+                                <span class="place__price"></span>
+                            </div>
+                        </div>
+
+                       
+                    </div>
+
+                    <!--==================== PLACES CARD 4 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place4.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number"></span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Pistacia khinjuk</h3>
+                                <span class="place__subtitle"><mark>Suitable in cold and temperate areas that are not hot, from the mountains of Al-Madinah Al-Munawwarah region to the mountains of the Tabuk region, with an altitude not exceeding 900 m.</mark></span>
+                                <span class="place__price"></span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!--==================== PLACES CARD 5 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place5.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number"></span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Rhus retinorrhoea</h3>
+                                <span class="place__subtitle"><mark>A species of the genus Ptolemy. It has a dense shade, for the temperate and cold, non-hot areas in the south and southwest of the Kingdom up to 35 degrees Celsius.</mark></span>
+                                <span class="place__price"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SUBSCRIBE ====================-->
+            <section class="subscribe section">
+                <div class="subscribe__bg">
+                    <div class="subscribe__container container">
+                        <h2 class="section__title subscribe__title">To join us,<br> enter your email</h2>
+                        <p class="subscribe__description">
+                        </p>
+    
+                        <form action="" class="subscribe__form">
+                            <input type="text" placeholder="Enter email" class="subscribe__input">
+    
+                            <button class="button">
+                                Subscribe
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== SPONSORS ====================-->
+            <section class="sponsor section">
+                <div class="sponsor__container container grid">
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors0.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors0.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors0.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors0.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors0.png" alt="" class="sponsor__img">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                       
+                        <div>
+        
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social"></a>
+                           
+                            </a>
+                           
+                        </div>
+                    </div>
+    
+                    
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2021 ghazl jyar. All rigths reserved.</p>
+                   
+                </div>
+            </div>
+        </footer>
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
